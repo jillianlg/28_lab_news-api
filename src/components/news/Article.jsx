@@ -1,5 +1,5 @@
 import React from 'react';
-import ProtoTypes from 'proto-types';
+import PropTypes from 'prop-types';
 
 const SingleArticle = ({ articles }) => {
   const articleElements = articles.map(article => (
@@ -17,6 +17,14 @@ const SingleArticle = ({ articles }) => {
       </ul>
     </>
   );
+};
+
+SingleArticle.propTypes = {
+  articles: PropTypes.arrayOf(PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
+  })).isRequired
 };
 
 export default SingleArticle;
