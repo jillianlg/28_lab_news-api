@@ -2,8 +2,21 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
+  <label
+    for="searchInput"
+  >
+    Search
+  </label>
+  <input
+    id="searchInput"
+    placeholder="search"
+    type="text"
+  />
   <h1>
-    Hello World
+    News Articles
   </h1>
+  <ul
+    data-testid="article"
+  />
 </DocumentFragment>
 `;

@@ -12,7 +12,7 @@ const Articles = ({ articles }) => {
   return (
     <>
       <h1>News Articles</h1>
-      <ul>
+      <ul data-testid="article">
         {articleElements}
       </ul>
     </>

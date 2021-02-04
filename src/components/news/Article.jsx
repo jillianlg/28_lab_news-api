@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -12,7 +13,7 @@ const SingleArticle = ({ title, author, description }) => (
 
 SingleArticle.propTypes = {
   title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
+  author: PropTypes.string,
   description: PropTypes.string.isRequired
 };
 

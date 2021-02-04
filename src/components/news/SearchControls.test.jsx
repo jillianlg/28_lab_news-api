@@ -8,6 +8,9 @@ describe('Search component', () => {
   it('renders Search', () => {
     const { asFragment } = render(
       <Search 
+        // id="searchInput"
+        // type="text" 
+        // placeholder="search" 
         onChange={jest.fn()}
       />
     );

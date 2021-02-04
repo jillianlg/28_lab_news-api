@@ -2,7 +2,13 @@
 
 exports[`Search component renders Search 1`] = `
 <DocumentFragment>
+  <label
+    for="searchInput"
+  >
+    Search
+  </label>
   <input
+    id="searchInput"
     placeholder="search"
     type="text"
   />
