@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const Articles = ({ articles }) => {
   const articleElements = articles.map(article => (
     <li key={article.id}>
-      <h2>Title:{article.title}</h2>
-      <h3>Author:{article.author}</h3>
-      <p>Description:{article.description}</p>
+      <h2>{article.title}</h2>
+      <h4>{article.author}</h4>
+      <p>{article.description}</p>
     </li>
   ));
   return (
