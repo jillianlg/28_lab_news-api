@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article component renders Article 1`] = `
+<DocumentFragment>
+  <div
+    style="border: 1px solid black; padding: 8px;"
+  >
+    <h2>
+      tesla
+    </h2>
+    <h4>
+      kat longfellow
+    </h4>
+    <p
+      style="font-size: 10px;"
+    >
+      Elon Musk did it again...
+    </p>
+  </div>
+</DocumentFragment>
+`;
