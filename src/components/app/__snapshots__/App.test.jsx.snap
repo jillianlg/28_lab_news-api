@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <label
+    for="searchInput"
+  >
+    Search
+  </label>
+  <input
+    id="searchInput"
+    placeholder="search"
+    type="text"
+  />
+  <h1>
+    News Articles
+  </h1>
+  <ul
+    data-testid="article"
+  />
+</DocumentFragment>
+`;
